@@ -34,7 +34,7 @@ nav {
 
 .logo h3 {
     color: #111;
-    font-size: 16px;
+    font-size: 20px;
     font-family: RobotoRegular;
 }
 
@@ -53,9 +53,9 @@ nav {
     padding: 30px 16px;
     color: #111;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     font-family: RobotoMedium;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     transition: all ease-in-out 100ms;
 }
 
@@ -63,7 +63,7 @@ nav {
     background-color: #39ffde;
 }
 
-.nav-links .nav-cta-button {
+/* .nav-links .nav-cta-button {
     padding: 10px 18px;
     margin-left: 16px;
     border: #39ffde solid 2px;
@@ -72,7 +72,7 @@ nav {
 
 .nav-links .nav-cta-button:hover {
     background-color: #39ffde;
-}
+} */
 
 .hamburger {
     display: none;
@@ -121,17 +121,17 @@ nav {
         background-color: #39ffde;
     }
 
-    .nav-links .nav-cta-button {
+    /* .nav-links .nav-cta-button {
         padding: 30px 16px;
         margin-left: 0;
         border: none;
         border-radius: 0;
         margin-bottom: 20px;
-    }
+    } */
     
-    .nav-links .nav-cta-button:hover {
+    /* .nav-links .nav-cta-button:hover {
         background-color: #39ffde;
-    }
+    } */
 
     .nav-links.active {
         display: flex; /* Show the nav links when the active class is applied */
