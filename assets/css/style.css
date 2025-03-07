@@ -129,4 +129,8 @@ nav {
     .nav-links .nav-cta-button:hover {
         background-color: #39ffde;
     }
+
+    .nav-links.active {
+        display: flex; /* Show the nav links when the active class is applied */
+    }
 }
