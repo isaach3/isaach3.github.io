@@ -4,28 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Welcome to My Portfolio</h1>
     </header>
-    <div class="topnav">
-		<a class="active" href="#home">Home</a>
-		<a href="#news">News</a>
-		<a href="#contact">Contact</a>
-		<a href="#about">About</a>
-	</div>
+	<nav>
+		<div class="hamburger">
+			<div class ="bar"></div>
+			<div class ="bar"></div>
+			<div class ="bar"></div>
+
+		</div>
+		<ul class="nav-links">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Projects</a></li>
+			<li><a href="#">Resume</a></li>
+			<li><a class="nav-cta-button" href="#">Contact</a></li>
+		</ul> 
+	</nav>
     <section id="projects">
         <h2>Projects</h2>
         <ul>
             <li><a href="project1.html">Project 1</a></li>
-            <li><a href="#project2.html">Project 2</a></li>
+            <li><a href="project2.html">Project 2</a></li>
         </ul>
     </section>
     <section id="contact">
         <h2>Contact</h2>
-        <p>Email: [Your Email]</p>
+        <p>Email: ihong0806@gmail.com</p>
+		<p>Phone: 949-433-2306</p>
     </section>
 </body>
+<script src="assets/js/nav.js"></script>
+
 </html>
