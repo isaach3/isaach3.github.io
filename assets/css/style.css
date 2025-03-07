@@ -17,15 +17,15 @@ nav {
     top: 0;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: flex-start;
+    margin-left: 10px;
     background-color: #fff;
 }
 
 .logo {
     display: flex;
     align-items: center;
-    padding: 0 20px;
+    /* padding: 0 20px; */
 }
 
 .logo img {
@@ -33,9 +33,7 @@ nav {
 }
 
 .logo h3 {
-    margin-left: 10px;
     color: #111;
-    text-decoration: none;
     font-size: 16px;
     font-family: RobotoRegular;
 }
